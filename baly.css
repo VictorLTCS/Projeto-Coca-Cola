@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #0055FF;
+    background: linear-gradient(0deg,rgba(0, 85, 255, 1) 0%, rgba(89, 144, 255, 1) 50%, rgba(0, 85, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu-text{
+    color: white;
+}
+
+.main{
+    background-image: url(./img/logo.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lata {
+    position: absolute;
+    height: 97vh; 
+}
