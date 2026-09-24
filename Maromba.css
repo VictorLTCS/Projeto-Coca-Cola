@@ -67,7 +67,7 @@ background: linear-gradient(0deg, rgba(23, 23, 23, 1) 0%, rgba(212, 186, 207, 1)
 
     .texto {
         height: 20vh;
-        transform: translateX(-80px)
+        transform: translateX(-90px)
     }
 
     .footer {
