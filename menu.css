@@ -25,3 +25,26 @@ div{
 img{
     width: 250px;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .main {
+        background-size: 85vw;
+    }
+
+    .garrafa {
+        height: 50vh;
+    }
+
+    .texto {
+        height: 5vh;
+        transform: translateX(-95px)
+    }
+
+    .footer {
+        justify-content: flex-end;
+    }
+}

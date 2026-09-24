@@ -40,3 +40,21 @@ body{
     position: absolute;
     height: 97vh; 
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .main {
+        background-size: 130vw;
+    }
+
+    .lata {
+        height: 35vh;
+    }
+
+    .footer {
+        justify-content: flex-end;
+    }
+}

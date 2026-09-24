@@ -51,3 +51,26 @@ background: linear-gradient(0deg, rgba(23, 23, 23, 1) 0%, rgba(212, 186, 207, 1)
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .main {
+        background-size: 85vw;
+    }
+
+    .garrafa {
+        height: 50vh;
+    }
+
+    .texto {
+        height: 20vh;
+        transform: translateX(-80px)
+    }
+
+    .footer {
+        justify-content: flex-end;
+    }
+}
